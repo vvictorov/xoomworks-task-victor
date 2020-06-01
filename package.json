@@ -1,0 +1,29 @@
+{
+  "name": "xoomworks-task-victor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon --inspect ./index.js 5050"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvictorov/xoomworks-task-victor.git"
+  },
+  "author": "Victor Victorov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vvictorov/xoomworks-task-victor/issues"
+  },
+  "homepage": "https://github.com/vvictorov/xoomworks-task-victor#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
